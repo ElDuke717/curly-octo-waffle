@@ -1,0 +1,84 @@
+/* src/components/OrderForm.css */
+.order-form {
+    padding: 60px 20px;
+    background-color: var(--grey-100);
+    text-align: center;
+  }
+  
+  .order-form h2 {
+    margin-bottom: 40px;
+  }
+  
+  .order-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--grey-800);
+  }
+  
+  .form-group label span {
+    color: var(--red-500);
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--grey-300);
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--green-500);
+  }
+  
+  .order-form button {
+    margin-top: 20px;
+  }
+
+  /* src/components/OrderForm.css */
+
+/* Existing styles... */
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles for the select elements if needed */
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--grey-300);
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .form-group select:focus {
+    outline: none;
+    border-color: var(--green-500);
+  }
+  
+  /* Ensure the label and select elements align properly */
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--grey-800);
+  }
+  
+  .form-group label span {
+    color: var(--red-500);
+  }

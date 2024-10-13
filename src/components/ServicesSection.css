@@ -1,0 +1,39 @@
+/* src/components/ServicesSection.css */
+.services {
+    padding: 60px 20px;
+    background-color: var(--grey-050);
+    text-align: center;
+  }
+  
+  .services h2 {
+    margin-bottom: 40px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: white;
+    border: 1px solid var(--grey-200);
+    border-radius: 8px;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .service-card h3 {
+    margin-top: 0;
+    color: var(--green-600);
+  }
+  
+  .service-card p {
+    margin-bottom: 1em;
+  }
+  
+  .service-card button {
+    background-color: var(--green-500);
+  }

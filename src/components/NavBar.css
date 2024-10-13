@@ -1,0 +1,49 @@
+/* src/components/NavBar.css */
+.navbar {
+  background-color: var(--green-600);
+  padding: 1em 2em;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin-left: 1.5em;
+}
+
+.nav-menu a {
+  color: white;
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-menu li {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
