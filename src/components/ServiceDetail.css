@@ -1,0 +1,29 @@
+/* src/components/ServiceDetail.css */
+.service-detail {
+    padding: 60px 20px;
+    background-color: var(--grey-100);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .service-detail h2 {
+    color: var(--green-700);
+    margin-bottom: 20px;
+  }
+  
+  .service-detail p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .service-detail ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-detail button {
+    display: block;
+    margin: 0 auto;
+  }

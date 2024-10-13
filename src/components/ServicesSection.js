@@ -1,22 +1,25 @@
 // src/components/ServicesSection.js
-import React from "react";
-import "./ServicesSection.css";
+import React from 'react';
+import './ServicesSection.css';
 
-function ServicesSection() {
+function ServicesSection({ onSelectService }) {
   const services = [
     {
-      title: "Firewood Delivery",
+      title: 'Firewood Delivery',
       description:
-        "High quality firewood delivered to your door at competitive prices.",
+        'High quality firewood delivered to your door at competitive prices.',
+      component: 'FirewoodDelivery',
     },
     {
-      title: "Firewood from Your Trees",
-      description: "We can help turn your fallen trees into firewood.",
+      title: 'Firewood from Your Trees',
+      description: 'We can help turn your fallen trees into firewood.',
+      component: 'FirewoodFromYourTrees',
     },
     {
-      title: "Environmental Consulting",
+      title: 'Environmental Consulting',
       description:
-        "We can help you with environmental consulting for your business or landscape.",
+        'We can help you with environmental consulting for your business or landscape.',
+      component: 'EnvironmentalConsulting',
     },
   ];
 
@@ -28,7 +31,9 @@ function ServicesSection() {
           <div className="service-card" key={index}>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
-            <button>Learn More</button>
+            <button onClick={() => onSelectService(service.component)}>
+              Learn More
+            </button>
           </div>
         ))}
       </div>
